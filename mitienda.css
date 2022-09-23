@@ -1,0 +1,64 @@
+.mitienda{
+    display:flex;
+    height: 50%;
+}
+  
+.nav{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.hombre{
+    display:inline-block;
+    margin-left:15px;
+}
+
+.moda{
+    display:flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.modelo{
+    margin: 5px;
+    height: 500px;
+    position: relative;
+    width: calc(25% - 10px);
+    overflow: hidden;
+}
+
+
+.foto{
+    width: 90%;
+
+    object-fit: cover;
+
+}
+
+input{
+    height: 20px;
+    margin-top: 15px;
+    margin-left: 5px;
+    width: 50%;
+}
+
+.img{
+    margin-top: 10px;
+}
+.lorem{
+     position: fixed;
+     top:30px;
+     left:20px;
+     z-index: 2;
+}
+
+.texto{
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    justify-content: center;
+    margin-left: 30%;
+}
